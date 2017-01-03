@@ -2,7 +2,7 @@
 // Bootswatch
 // -----------------------------------------------------
 
-$web-font-path: "https://fonts.googleapis.com/css?family=Heebo:300,500|Slabo+13px|Anonymous+Pro" !default;
+$web-font-path: "https://fonts.googleapis.com/css?family=Roboto:300,400|Slabo+13px|Anonymous+Pro" !default;
 @import url($web-font-path);
 
 // Navbar =====================================================================
@@ -46,6 +46,10 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Heebo:300,500|Slabo+13p
 }
 
 // Typography =================================================================
+
+body {
+  font-weight: 300;
+}
 
 .text-primary,
 .text-primary:hover {
@@ -235,7 +239,7 @@ input {
 .close {
   color: #fff;
   text-decoration: none;
-  opacity: 0.4;
+  opacity: 0.6;
 
   &:hover,
   &:focus {
@@ -255,7 +259,7 @@ input {
 // Progress bars ==============================================================
 
 .progress {
-  height: 10px;
+  height: 8px;
   @include box-shadow(none);
   .progress-bar {
     font-size: 10px;
@@ -327,4 +331,9 @@ a.list-group-item {
 
 .popover {
   color: $text-color;
+}
+
+
+.modal-content, ul.dropdown-menu {
+  box-shadow: 0 1px 20px 0 rgba($gray, 0.15), 0 2px 5px 0 rgba($gray, .05);
 }

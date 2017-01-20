@@ -48,30 +48,30 @@ $link-hover-decoration: underline !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  "Roboto", Helvetica, Arial, sans-serif !default;
-$font-family-serif:       "Slabo 13px", Georgia, "Times New Roman", Times, serif !default;
+$font-family-sans-serif:  "Karla", Helvetica, Arial, sans-serif !default;
+$font-family-serif:       "Radley", Georgia, "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   'Anonymous Pro', Consolas, Monaco, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
 
 $font-size-base:          16px !default;
-$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
-$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+$font-size-large:         ceil(($font-size-base * 1.24)) !default; // ~18px
+$font-size-small:         ceil(($font-size-base * 0.88)) !default; // ~12px
 
-$font-size-h1:            ceil(($font-size-base * 2.441)) !default; // ~36px
-$font-size-h2:            ceil(($font-size-base * 1.953)) !default; // ~30px
+$font-size-h1:            ceil(($font-size-base * 2.3)) !default; // ~36px
+$font-size-h2:            ceil(($font-size-base * 1.8)) !default; // ~30px
 $font-size-h3:            ceil(($font-size-base * 1.563)) !default; // ~24px
 $font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-h5:            $font-size-base !default;
 $font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
 
 //** Unit-less `line-height` for use in components like buttons.
-$line-height-base:        1.428571429 !default; // 20/14
+$line-height-base:        1.44 !default;
 //** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
 $line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
 
 //** By default, this inherits from the `<body>`.
-$headings-font-family:    'Slabo 13px', sans-serif !default;
+$headings-font-family:    'Radley', sans-serif !default;
 $headings-font-weight:    400 !default;
 $headings-line-height:    1.2 !default;
 $headings-color:          inherit !default;
@@ -219,7 +219,7 @@ $input-height-large:             (ceil($font-size-large * $line-height-large) + 
 $input-height-small:             (floor($font-size-small * $line-height-small) + ($padding-small-vertical * 2) + 4) !default;
 
 //** `.form-group` margin
-$form-group-margin-bottom:       16px !default;
+$form-group-margin-bottom:       1rem !default;
 
 $legend-color:                   $text-color !default;
 $legend-border-color:            transparent !default;

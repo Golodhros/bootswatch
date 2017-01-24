@@ -2,8 +2,24 @@
 // Bootswatch
 // -----------------------------------------------------
 
-$web-font-path: "https://fonts.googleapis.com/css?family=Roboto:300,400|Slabo+13px|Anonymous+Pro" !default;
+$web-font-path: "https://fonts.googleapis.com/css?family=Karla|Radley|Anonymous+Pro" !default;
 @import url($web-font-path);
+
+//Roboto:300,400|Slabo+13px|
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0.02rem;
+}
 
 // Navbar =====================================================================
 
@@ -274,6 +290,11 @@ input {
 }
 
 a.list-group-item {
+  
+  .list-group-item-heading {
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+  }
 
   &.active,
   &.active:hover,

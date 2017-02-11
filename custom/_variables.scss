@@ -24,6 +24,7 @@ $brand-success:         #59C3A3 !default;
 $brand-info:            #39C2C9 !default;
 $brand-warning:         #F9B438 !default;
 $brand-danger:          #FF584C !default;
+$brand-orange:			#F6682F;
 
 
 //== Scaffolding
@@ -363,23 +364,23 @@ $container-lg:                 $container-large-desktop !default;
 //##
 
 // Basics of a navbar
-$navbar-height:                    56px !default;
+$navbar-height:                    66px !default;
 $navbar-margin-bottom:             $line-height-computed !default;
 $navbar-border-radius:             $border-radius-base !default;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
 $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
 $navbar-collapse-max-height:       340px !default;
 
-$navbar-default-color:             #fff !default;
-$navbar-default-bg:                $gray-dark !default;
+$navbar-default-color:             $gray-dark !default;
+$navbar-default-bg:                #fff !default;
 $navbar-default-border:            transparent !default;
 
 // Navbar links
-$navbar-default-link-color:                #fff !default;
-$navbar-default-link-hover-color:          #fff !default;
-$navbar-default-link-hover-bg:             $gray-darker !default;
-$navbar-default-link-active-color:         #fff !default;
-$navbar-default-link-active-bg:            $gray-darker !default;
+$navbar-default-link-color:                $gray-dark !default;
+$navbar-default-link-hover-color:          $gray-dark !default;
+$navbar-default-link-hover-bg:             $gray-lightest !default;
+$navbar-default-link-active-color:         $gray-dark !default;
+$navbar-default-link-active-bg:            $gray-lighter !default;
 $navbar-default-link-disabled-color:       $gray-light-text !default;
 $navbar-default-link-disabled-bg:          transparent !default;
 
@@ -835,8 +836,8 @@ $close-text-shadow:           none !default;
 //
 //##
 
-$code-color:                  #c7254e !default;
-$code-bg:                     #f9f2f4 !default;
+$code-color:                  $brand-orange !default;
+$code-bg:                     $gray-lightest !default;
 
 $kbd-color:                   #fff !default;
 $kbd-bg:                      #333 !default;

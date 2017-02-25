@@ -1,11 +1,24 @@
 // Based on: Flatly 3.3.7
 // Bootswatch
 // -----------------------------------------------------
+@font-face {
+  font-family: 'Benton Light';
+  src: url('../fonts/benton/light/Benton_Sans-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/benton/light/Benton_Sans-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/benton/light/Benton_Sans-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/benton/light/Benton_Sans-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/benton/light/Benton_Sans-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
 
-$web-font-path: "https://fonts.googleapis.com/css?family=Karla|Radley|Anonymous+Pro" !default;
-@import url($web-font-path);
+@font-face {
+  font-family: 'Benton Regular';
+  src: url('../fonts/benton/regular/Benton_Sans-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/benton/regular/Benton_Sans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/benton/regular/Benton_Sans-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/benton/regular/Benton_Sans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/benton/regular/Benton_Sans-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
 
-//Roboto:300,400|Slabo+13px|
 
 body {
   text-rendering: optimizeLegibility;
@@ -290,7 +303,7 @@ input {
 }
 
 a.list-group-item {
-  
+
   .list-group-item-heading {
     margin-bottom: 1rem;
     margin-top: 0.5rem;
